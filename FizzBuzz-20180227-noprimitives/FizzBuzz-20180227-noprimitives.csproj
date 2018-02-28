@@ -52,9 +52,29 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Actions\Strategy\BuzzResponseAction.cs" />
+    <Compile Include="Actions\Strategy\FizzBuzzResponseAction.cs" />
+    <Compile Include="Actions\Strategy\FizzResponseAction.cs" />
+    <Compile Include="Actions\Strategy\IResponseAction.cs" />
+    <Compile Include="Actions\Strategy\NumberResponseAction.cs" />
+    <Compile Include="Actions\Strategy\StrategyResponseAction.cs" />
     <Compile Include="BarTests.cs" />
-    <Compile Include="FizzText.cs" />
+    <Compile Include="Bools\EqualsInt.cs" />
+    <Compile Include="Bools\EqualsText.cs" />
+    <Compile Include="Bools\EvenlyDivisibleBy.cs" />
+    <Compile Include="Bools\IBool.cs" />
+    <Compile Include="Extensions\Extensions.cs" />
+    <Compile Include="Ints\IInt.cs" />
+    <Compile Include="Ints\IntOf.cs" />
+    <Compile Include="Ints\RemainderInt.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StrategyFizzBuzz.cs" />
+    <Compile Include="Texts\BuzzText.cs" />
+    <Compile Include="Texts\FizzBuzzText.cs" />
+    <Compile Include="Texts\FizzText.cs" />
+    <Compile Include="Texts\IText.cs" />
+    <Compile Include="Texts\NumberText.cs" />
+    <Compile Include="Texts\TextOf.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
